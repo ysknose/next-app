@@ -1,0 +1,32 @@
+{
+    "name": "next-app",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "WATCHPACK_POLLING=true next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "prisma seed": "ts-node prisma/seed.ts"
+    },
+    "dependencies": {
+        "next": "latest",
+        "prisma": "^5.3.1",
+        "react": "latest",
+        "react-dom": "latest",
+        "zod": "^3.22.2"
+    },
+    "devDependencies": {
+        "@mermaid-js/mermaid-cli": "^10.4.0",
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "autoprefixer": "latest",
+        "eslint": "latest",
+        "eslint-config-next": "latest",
+        "postcss": "latest",
+        "prisma-erd-generator": "^1.11.1",
+        "tailwindcss": "latest",
+        "typescript": "latest"
+    }
+}
